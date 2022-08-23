@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url(../edyoda-kiron/images/stunning-logo\ \(1\).png);
+    height: 25vh;
+    background-size: contain;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+div#nav{
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #FE5D20;
+    text-decoration: #FFD8DB;
+    color: #A389CC;
+    padding: 5px 20px;
+    border: 1px solid rgb(81, 21, 21);
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
